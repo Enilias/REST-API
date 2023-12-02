@@ -13,8 +13,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class HttpRreceivingAndSending {
-    @SuppressWarnings("unused")
     public static JSONArray httpGetJson(String url) {
         JSONArray jsonArray = null;
         try {
